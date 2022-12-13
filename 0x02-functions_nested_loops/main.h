@@ -36,6 +36,6 @@ void print_times_table(int n);
 
 
 
-#endif /* MAIN_H */
+#endif
 
 #endif
