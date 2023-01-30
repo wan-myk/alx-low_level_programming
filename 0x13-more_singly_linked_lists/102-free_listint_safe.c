@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _ra - reallocates memory for an array of pointers
@@ -9,7 +11,6 @@
  *
  * Return: pointer to the new list
  */
-
 listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 {
 	listint_t **newlist;
@@ -34,7 +35,6 @@ listint_t **_ra(listint_t **list, size_t size, listint_t *new)
  *
  * Return: the number of nodes in the list
  */
-
 size_t free_listint_safe(listint_t **head)
 {
 	size_t i, num = 0;
